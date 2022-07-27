@@ -13,6 +13,26 @@ body {
     background: linear-gradient(to top, #e3f2fd, whitesmoke);
 }
 
+.container {
+    width: 850px;
+    background: whitesmoke;
+    border-radius: 5px;
+    padding: 30px 35px 35px;
+    box-shadow: 0 10px 20px rgba(17, 17, 17, 0.161);
+    h2 {
+        font-size: 21px;
+        font-weight: 600;
+    }
+    .wrapper {
+        display: flex;
+        margin: 20px 0;
+        min-height: 335px;
+        .editor-panel {
+            
+        }
+    }
+}
+
 button {
     text-transform: uppercase;
 }
