@@ -19,6 +19,14 @@
   font-family: "Lato", sans-serif;
 }
 
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to top, #e3f2fd, whitesmoke);
+}
+
 button {
   text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
