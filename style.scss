@@ -70,6 +70,13 @@ body {
                 background: #5372f0;
                 border: 0;
             }
+            .rotate button {
+                width: calc(100% / 4 - 3px);
+                transition: $main-transition;
+            }
+            .slider {
+                margin-top: 12px;
+            }
         }
     }
 }

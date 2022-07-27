@@ -72,12 +72,12 @@ body {
   border: 1px solid #aaa;
   border-radius: 5px;
   background: whitesmoke;
-  transition: 0.3s all ease;
+  transition: 0.5s all ease;
 }
 .container .wrapper .editor-panel button:hover {
   cursor: pointer;
   background: #ddd;
-  transition: 0.3s all ease;
+  transition: 0.5s all ease;
 }
 .container .wrapper .editor-panel .filter button {
   width: calc(50% - 4px);
@@ -86,4 +86,11 @@ body {
   color: whitesmoke;
   background: #5372f0;
   border: 0;
+}
+.container .wrapper .editor-panel .rotate button {
+  width: calc(25% - 3px);
+  transition: 0.5s all ease;
+}
+.container .wrapper .editor-panel .slider {
+  margin-top: 12px;
 }/*# sourceMappingURL=style.css.map */
