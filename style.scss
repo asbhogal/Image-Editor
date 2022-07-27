@@ -55,12 +55,20 @@ body {
                 border: 1px solid #aaa;
                 border-radius: 5px;
                 background: whitesmoke;
+                transition: $main-transition;
+                &:hover {
+                    cursor: pointer;
+                    background: #ddd;
+                    transition: $main-transition;
+                }
             }
             .filter button {
                 width: calc(100% / 2 - 4px);
-                .active {
-                    background: #5372f0;
-                }
+            }
+            .active {
+                color: whitesmoke;
+                background: #5372f0;
+                border: 0;
             }
         }
     }

@@ -72,10 +72,18 @@ body {
   border: 1px solid #aaa;
   border-radius: 5px;
   background: whitesmoke;
+  transition: 0.3s all ease;
+}
+.container .wrapper .editor-panel button:hover {
+  cursor: pointer;
+  background: #ddd;
+  transition: 0.3s all ease;
 }
 .container .wrapper .editor-panel .filter button {
   width: calc(50% - 4px);
 }
-.container .wrapper .editor-panel .filter button .active {
+.container .wrapper .editor-panel .active {
+  color: whitesmoke;
   background: #5372f0;
+  border: 0;
 }/*# sourceMappingURL=style.css.map */
