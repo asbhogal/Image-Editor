@@ -14,4 +14,8 @@
 }
 body {
   font-family: "Lato", sans-serif;
+}
+
+button {
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
