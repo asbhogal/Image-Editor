@@ -12,7 +12,10 @@
   font-weight: 400;
   src: url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.woff2") format("woff2");
 }
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Lato", sans-serif;
 }
 
