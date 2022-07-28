@@ -30,6 +30,13 @@ body {
         display: flex;
         margin: 20px 0;
         min-height: 335px;
+        .preview-img {
+            margin-left: 20px;
+            .placeholder-img {
+                height: 100%;
+                width: 100%;
+            }
+        }
         .editor-panel {
             width: 280px;
             padding: 15px 20px;
@@ -70,9 +77,16 @@ body {
                 background: #5372f0;
                 border: 0;
             }
+            .rotate {
+                margin-top: 17px;
+            }
             .rotate button {
                 width: calc(100% / 4 - 3px);
                 transition: $main-transition;
+                &:nth-child(3),
+                &:nth-child(4) {
+                    font-size: 18px;
+                }
             }
             .slider {
                 margin-top: 12px;
