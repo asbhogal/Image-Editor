@@ -12,3 +12,21 @@
         }
     }
 }
+
+@media screen and (max-width: 760px) {
+    .container {
+        padding: 25px;
+        .wrapper {
+            flex-wrap: wrap-reverse;
+        }
+    }
+    .wrapper {
+        .editor-panel {
+            width: auto;
+        }
+        .preview-img {
+            width: 100%;
+            margin: 0 0 15px;
+        }
+    }
+}
