@@ -54,16 +54,17 @@ body {
   background: linear-gradient(to top, #e3f2fd, whitesmoke);
 }
 
+.container.disable :is(.editor-panel, .reset-filter, .save-img) {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
 .container {
   width: auto;
   background: whitesmoke;
   border-radius: 5px;
   padding: 30px 35px 35px;
   box-shadow: 0 10px 20px rgba(17, 17, 17, 0.161);
-}
-.container .disable:where(.editor-panel, .reset-filter, .save-img) {
-  opacity: 0.6;
-  pointer-events: none;
 }
 .container h2 {
   font-size: 21px;
