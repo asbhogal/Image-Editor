@@ -3,6 +3,7 @@ filterOptions = document.querySelectorAll(".filter button"),
 filterName = document.querySelector(".filter-info .name"),
 filterValue = document.querySelector(".filter-info .value"),
 filterSlider = document.querySelector(".slider input"),
+rotateOptions = document.querySelectorAll(".rotate button"),
 previewImg = document.querySelector(".preview-img img"),
 chooseImgBtn = document.querySelector(".choose-img");
 
@@ -69,6 +70,12 @@ const updateFilter = () => {
 
     applyFilters();
 }
+
+rotateOptions.forEach(option => {
+    option.addEventListener("click", () => {
+        console.log(option);
+    });
+});
 
 fileInput.addEventListener("change", loadImage);
 filterSlider.addEventListener("input", updateFilter)
