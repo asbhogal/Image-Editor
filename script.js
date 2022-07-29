@@ -6,6 +6,8 @@ filterSlider = document.querySelector(".slider input"),
 previewImg = document.querySelector(".preview-img img"),
 chooseImgBtn = document.querySelector(".choose-img");
 
+let brightness = 100, saturation = 100, inversion = 0, grayscale = 0;
+
 const loadImage = () => {
     let file = fileInput.files[0];
     if(!file) return;
@@ -20,11 +22,27 @@ filterOptions.forEach(option => {
         document.querySelector(".filter .active").classList.remove("active");
         option.classList.add("active");
         filterName.innerText = option.innerText;
+
+        if(option.id ==="brightness") {
+            filterSlider.value = `${brightness}%`;
+            filterValue.innerText = 
+        }
     });
 });
 
 const updateFilter = () => {
     filterValue.innerText = `${filterSlider.value}%`;
+    const selectedFilter = document.querySelector(".filter .active");
+
+    if(selectedFilter.id === "brightness") {
+        brightness = filterSlider.value;
+    } else if(selectedFilter.id === "saturation") {
+        saturation = filterSlider.value;
+    } else if(selectedFilter.id === "inversion") {
+        inversion = filterSlider.value;
+    } else {
+        grayscale = filterSlider.value;
+    }
 }
 
 fileInput.addEventListener("change", loadImage);
