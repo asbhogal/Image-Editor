@@ -144,6 +144,7 @@ body {
 .container .wrapper .editor-panel button:hover {
   cursor: pointer;
   background: #ddd;
+  color: #111;
   transition: 0.5s all ease;
 }
 .container .wrapper .editor-panel .filter button {

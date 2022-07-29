@@ -24,8 +24,8 @@ filterOptions.forEach(option => {
         filterName.innerText = option.innerText;
 
         if(option.id ==="brightness") {
-            filterSlider.value = `${brightness}%`;
-            filterValue.innerText = 
+            filterSlider.value = brightness;
+            filterValue.innerText = `${brightness}%`;
         }
     });
 });
