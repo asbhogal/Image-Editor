@@ -1,6 +1,7 @@
 const fileInput = document.querySelector(".file-input"),
 filterOptions = document.querySelectorAll(".filter button"),
 filterName = document.querySelector(".filter-info .name"),
+filterValue = document.querySelector(".filter-info .value"),
 filterSlider = document.querySelector(".slider input"),
 previewImg = document.querySelector(".preview-img img"),
 chooseImgBtn = document.querySelector(".choose-img");
@@ -23,7 +24,7 @@ filterOptions.forEach(option => {
 });
 
 const updateFilter = () => {
-    console.log(filterSlider.value);
+    filterValue.innerText = `${filterSlider.value}%`;
 }
 
 fileInput.addEventListener("change", loadImage);
