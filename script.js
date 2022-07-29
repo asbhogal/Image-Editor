@@ -7,16 +7,23 @@ rotateOptions = document.querySelectorAll(".rotate button"),
 previewImg = document.querySelector(".preview-img img"),
 chooseImgBtn = document.querySelector(".choose-img");
 
-let brightness = 100, 
-saturation = 100, 
-inversion = 0, 
-grayscale = 0;
+let brightness  = 100, 
+saturation      = 100, 
+inversion       = 0, 
+grayscale       = 0;
+
+let rotate      = 0,
+flipHorizontal  = 1,
+flipVertical    = 1;
 
 const applyFilters = () => {
-    previewImg.style.filter =  `brightness(${brightness}%) 
-                                saturate(${saturation}%) 
-                                invert(${inversion}%) 
-                                grayscale(${grayscale}%)`;
+    previewImg.style.filter     =  `brightness(${brightness}%) 
+                                    saturate(${saturation}%) 
+                                    invert(${inversion}%) 
+                                    grayscale(${grayscale}%)`;
+    previewImg.style.transform  =  `rotate(${rotate}deg)
+                                    scale(${flipHorizontal},
+                                    ${flipVertical})`;
 }
 
 const loadImage = () => {
@@ -73,7 +80,14 @@ const updateFilter = () => {
 
 rotateOptions.forEach(option => {
     option.addEventListener("click", () => {
-        console.log(option);
+        if(option.id === "flip-left") {
+            rotate -= 90;
+        } else if(option.id === "flip-right") {
+            rotate += 90;
+        } else if(option.id === "flip-horizontal") {
+            flipHorizontal = flipHorizontal === 1 ? -1 : 1;
+        }
+        applyFilters();
     });
 });
 
