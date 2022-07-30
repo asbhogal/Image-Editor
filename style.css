@@ -107,6 +107,7 @@ body {
   justify-content: center;
   flex-grow: 1;
   margin-left: 20px;
+  overflow: hidden;
 }
 .container .wrapper .preview-img .placeholder-img {
   height: 100%;
