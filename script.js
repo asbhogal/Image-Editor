@@ -116,7 +116,16 @@ const saveImage = () => {
     canvas.width = previewImg.naturalWidth;
     canvas.height = previewImg.naturalHeight;
 
-    ctx.drawImage(previewImg, 0, 0, canvas.width, canvas.height);
+    ctx.filter   =     `brightness(${brightness}%)
+                        saturate(${saturation}%)
+                        invert(${inversion}%)
+                        grayscale(${grayscale}%)`;
+    ctx.translate(canvas.width / 2, canvas.height / 2);
+    ctx.scale(flipHorizontal, flipVertical);
+    ctx.drawImage(previewImg, -canvas.width / 2, 
+                              -canvas.height / 2, 
+                               canvas.width, 
+                               canvas.height);
     document.body.appendChild(canvas);
 }
 
