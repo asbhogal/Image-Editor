@@ -121,12 +121,20 @@ const saveImage = () => {
                         invert(${inversion}%)
                         grayscale(${grayscale}%)`;
     ctx.translate(canvas.width / 2, canvas.height / 2);
+
+    if(rotate !== 0) {
+        ctx.rotate(rotate * Math.PI / 180);
+    }
+
     ctx.scale(flipHorizontal, flipVertical);
     ctx.drawImage(previewImg, -canvas.width / 2, 
                               -canvas.height / 2, 
                                canvas.width, 
                                canvas.height);
-    document.body.appendChild(canvas);
+    const link = document.createElement("a");
+    link.download = "image.jpg";
+    link.href = canvas.toDataURL();
+    link.click();
 }
 
 fileInput.addEventListener("change", loadImage);
