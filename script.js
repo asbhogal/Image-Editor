@@ -33,6 +33,7 @@ const loadImage = () => {
     if(!file) return;
     previewImg.src = URL.createObjectURL(file);
     previewImg.addEventListener("load", () => {
+        resetFilterBtn.click();
         document.querySelector(".container").classList.remove("disable");
     });
 }
@@ -110,7 +111,6 @@ filterOptions[0].click();
 }
 
 const saveImage = () => {
-    console.log("Save image btn click");
     const canvas = document.createElement("canvas");
     const ctx = canvas.getContext("2d");
     canvas.width = previewImg.naturalWidth;
