@@ -51,7 +51,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(to top, #e3f2fd, whitesmoke);
+  background: linear-gradient(140deg, rgb(207, 47, 152), rgb(106, 61, 236));
 }
 
 .container.disable :is(.editor-panel, .reset-filter, .save-img) {
