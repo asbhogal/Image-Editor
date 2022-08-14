@@ -86,8 +86,11 @@ body {
   padding: 11px 20px;
   border-radius: 5px;
 }
+.container .controls .row > button {
+  height: 45px;
+}
 .container .controls .choose-img {
-  background: rgb(207, 47, 152);
+  background: #cf2f98;
   border: none;
 }
 .container .controls .reset-filter {
@@ -95,7 +98,7 @@ body {
   border: none;
 }
 .container .controls .save-img {
-  background: rgb(106, 61, 236);
+  background: #6a3dec;
   border: none;
   margin-left: 5px;
 }

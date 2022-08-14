@@ -42,9 +42,12 @@ body {
             font-size: 14px;
             padding: 11px 20px;
             border-radius: $border-radius;
-        }
+        }  
+        .row > button {
+            height: 45px;
+        } 
         .choose-img {
-            background:rgb(207, 47, 152);
+            background:#cf2f98;
             border: none;
         }
         .reset-filter {
@@ -52,7 +55,7 @@ body {
             border: none;
         }
         .save-img {
-            background: rgb(106, 61, 236);
+            background: #6a3dec;
             border: none;
             margin-left: 5px;
         }
