@@ -14,7 +14,7 @@ body {
 }
 
 .container.disable :is(.editor-panel, .reset-filter, .save-img) {
-    opacity: 0.6;
+    opacity: 0.4;
     pointer-events: none;
 }
 
@@ -22,9 +22,9 @@ body {
     width: auto;
     background: transparent;
     border-radius: $border-radius;
-    border: 2px solid #000;
+    border: 2px solid #160040;
     padding: 30px 35px 35px;
-    box-shadow: 0 10px 20px #11111129;
+    box-shadow: 0 0px 20px #28013b;
     h2 {
         font-size: 26px;
         font-weight: 600;
@@ -92,6 +92,8 @@ body {
                 height: 100%;
                 width: 100%;
                 object-fit: contain;
+                border-radius: $border-radius;
+                border: 1px solid #000;
             }
         }
         .editor-panel {
