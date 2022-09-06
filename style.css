@@ -51,7 +51,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(140deg, #cf2f98, #6a3dec);
+  background: linear-gradient(140deg, #160040, #4C0070);
 }
 
 .container.disable :is(.editor-panel, .reset-filter, .save-img) {
@@ -61,8 +61,9 @@ body {
 
 .container {
   width: auto;
-  background: #f5f5f5;
+  background: transparent;
   border-radius: 5px;
+  border: 2px solid #000;
   padding: 30px 35px 35px;
   box-shadow: 0 10px 20px rgba(17, 17, 17, 0.1607843137);
 }
