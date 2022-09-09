@@ -1,5 +1,7 @@
 <h1>Live Image Editor</h1>
 
+![](https://api.checklyhq.com/v1/badges/checks/c8aefcbc-45bc-4b99-b04b-7304a33589bd?style=for-the-badge&theme=dark)
+
 An image editor which allows the user to import a picture and adjust it through different filters. This has been coded using vanilla HTML5, CSS3 (SCSS) and JavaScript. The editor is fully responsive and is optimised for the web.
 
 <strong>Features:</strong><br>
