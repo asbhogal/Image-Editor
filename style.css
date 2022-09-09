@@ -12,18 +12,20 @@
   font-weight: 400;
   src: url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.woff2") format("woff2");
 }
-@media screen and (max-width: 500px) {
-  .controls button {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .controls .row {
-    width: 100%;
-  }
-  .controls .row .save-img {
-    margin-left: 0px;
-  }
-}
+/*@media screen and (max-width: 500px) {
+    .controls {
+        button {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .row {
+            width: 100%;
+            .save-img {
+                margin-left: 0px;
+            }
+        }
+    }
+}*/
 /*@media (max-width: 520px) {
     .editor-panel {
         width: auto !important;
@@ -46,6 +48,12 @@
   .wrapper .preview-img {
     width: 100%;
     margin-left: 0px !important;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 525px) and (max-width: 759px) {
+  .editor-panel {
+    width: 100% !important;
   }
 }
 * {
@@ -149,7 +157,7 @@ body {
   border: 1px solid #000;
 }
 .container .wrapper .editor-panel {
-  width: 280px;
+  width: fit-content;
   padding: 15px 20px;
   border-radius: 5px;
   border: 1px solid #ddd;
@@ -182,6 +190,7 @@ body {
   border-radius: 5px;
   background: #f5f5f5;
   transition: 0.5s all ease;
+  width: 100%;
 }
 .container .wrapper .editor-panel button:hover {
   cursor: pointer;

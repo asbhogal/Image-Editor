@@ -97,7 +97,7 @@ body {
             }
         }
         .editor-panel {
-            width: 280px;
+            width: fit-content;
             padding: 15px 20px;
             border-radius: $border-radius;
             border: 1px solid #ddd;
@@ -129,6 +129,7 @@ body {
                 border-radius: $border-radius;
                 background: #f5f5f5;
                 transition: $main-transition;
+                width: 100%;
                 &:hover {
                     cursor: pointer;
                     background: #ddd;

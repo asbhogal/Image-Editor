@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+/*@media screen and (max-width: 500px) {
     .controls {
         button {
             width: 100%;
@@ -11,7 +11,7 @@
             }
         }
     }
-}
+}*/
 
 /*@media (max-width: 520px) {
     .editor-panel {
@@ -37,6 +37,13 @@
         .preview-img {
             width: 100%;
             margin-left: 0px !important;
+            padding-bottom: 20px;
         }
+    }
+}
+
+@media screen and (min-width: 525px) and (max-width: 759px) {
+    .editor-panel {
+        width: 100% !important;
     }
 }
