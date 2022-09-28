@@ -6,7 +6,7 @@
 
 </div>
 
-An image editor which allows the user to import a picture and adjust it through different filters. This has been coded using vanilla HTML5, CSS3 (SCSS) and JavaScript. The editor is fully responsive and is optimised for the web.
+An image editor which allows the user to import a picture and adjust it using different filters. This has been coded using vanilla HTML5, CSS3 (SCSS) and JavaScript. The editor is fully responsive and is optimised for the web.
 
 <strong>Features:</strong><br>
   - Import image (currently 600 x 400 dimensions)
