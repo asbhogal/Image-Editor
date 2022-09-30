@@ -179,3 +179,20 @@ body {
 h2, label, p {
     color: #f5f5f5;
 }
+
+/***** CROSS-BROWSER SUPPORT *****/
+
+.choose-img,
+.choose-img:hover,
+.reset-filter,
+.reset-filter:hover,
+.save-img,
+.save-img:hover,
+button,
+button:hover,
+.rotate button {
+    -webkit-transition: $main-transition;
+    -moz-transition:    $main-transition;
+    -o-transition:      $main-transition;
+    -ms-transition:     $main-transition;
+}
