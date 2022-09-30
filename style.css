@@ -225,6 +225,7 @@ h2, label, p {
 button,
 button:hover,
 .rotate button {
+  transition: 0.5s all ease;
   -webkit-transition: 0.5s all ease;
   -moz-transition: 0.5s all ease;
   -o-transition: 0.5s all ease;

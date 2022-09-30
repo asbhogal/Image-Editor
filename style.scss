@@ -191,6 +191,7 @@ h2, label, p {
 button,
 button:hover,
 .rotate button {
+    transition:         $main-transition;
     -webkit-transition: $main-transition;
     -moz-transition:    $main-transition;
     -o-transition:      $main-transition;
