@@ -89,30 +89,48 @@ body {
   background: #79018C;
   border: none;
   transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 .container .controls .choose-img:hover {
   background: #4C0070;
   transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 .container .controls .reset-filter {
   background: #6c757d;
   border: none;
   transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 .container .controls .reset-filter:hover {
   background: #ddd;
   color: #111;
   transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 .container .controls .save-img {
   background: #4C0070;
   border: none;
   margin-left: 5px;
   transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 .container .controls .save-img:hover {
   background: #cf2f98;
   transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 .container .wrapper {
   display: flex;
@@ -168,6 +186,9 @@ body {
   border-radius: 5px;
   background: #f5f5f5;
   transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
   width: 100%;
 }
 .container .wrapper .editor-panel button:hover {
@@ -175,6 +196,9 @@ body {
   background: #ddd;
   color: #111;
   transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 .container .wrapper .editor-panel .filter button {
   width: calc(50% - 4px);
@@ -190,6 +214,9 @@ body {
 .container .wrapper .editor-panel .rotate button {
   width: calc(25% - 3px);
   transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
 }
 .container .wrapper .editor-panel .rotate button:nth-child(3), .container .wrapper .editor-panel .rotate button:nth-child(4) {
   font-size: 18px;
@@ -213,21 +240,4 @@ body {
 
 h2, label, p {
   color: #f5f5f5;
-}
-
-/***** CROSS-BROWSER SUPPORT *****/
-.choose-img,
-.choose-img:hover,
-.reset-filter,
-.reset-filter:hover,
-.save-img,
-.save-img:hover,
-button,
-button:hover,
-.rotate button {
-  transition: 0.5s all ease;
-  -webkit-transition: 0.5s all ease;
-  -moz-transition: 0.5s all ease;
-  -o-transition: 0.5s all ease;
-  -ms-transition: 0.5s all ease;
 }/*# sourceMappingURL=style.css.map */
