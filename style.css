@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
 @font-face {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato";
   font-style: Light;
   font-weight: 400;
   src: url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.woff2") format("woff2");
+  font-display: swap;
 }
 @font-face {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato";
   font-style: Light;
   font-weight: 400;
   src: url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.woff2") format("woff2");
+  font-display: swap;
 }
 @media screen and (max-width: 760px) {
   .container {
