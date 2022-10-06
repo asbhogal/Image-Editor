@@ -1,7 +1,14 @@
 @import 'variables';
 
 @mixin global-formatting {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin:                 0;
+    padding:                0;
+    box-sizing:             border-box;
+}
+
+@mixin cross-browser-support-transition-set {
+    transition:             $main-transition;
+    -webkit-transition:     $main-transition;
+    -moz-transition:        $main-transition;
+    -o-transition:          $main-transition;
 }
