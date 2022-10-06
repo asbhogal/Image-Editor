@@ -4,18 +4,7 @@
         'partials/typography', 
         'partials/variables';
 
-* {
-    @include global-formatting;
-    font-family: $body-font;
-}
 
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: linear-gradient(140deg, $main-color-1, $main-color-2);
-}
 
 .container.disable :is(.editor-panel, .reset-filter, .save-img) {
     opacity: 0.4;

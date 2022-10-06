@@ -1,3 +1,25 @@
+@font-face {
+  font-family: "Lato";
+  font-style: Light;
+  font-weight: 400;
+  src: url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.woff2") format("woff2");
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(140deg, #160040, #4C0070);
+}
+
 @media screen and (max-width: 760px) {
   .container {
     padding: 25px;
@@ -34,21 +56,6 @@
   src: url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.woff2") format("woff2");
   font-display: swap;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Lato", sans-serif;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: linear-gradient(140deg, #160040, #4C0070);
-}
-
 .container.disable :is(.editor-panel, .reset-filter, .save-img) {
   opacity: 0.4;
   pointer-events: none;
