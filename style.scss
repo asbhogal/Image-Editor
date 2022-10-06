@@ -1,4 +1,8 @@
-@import 'partials/variables', 'partials/typography', 'partials/mixins', 'partials/responsive';
+@import 'partials/globals',
+        'partials/mixins',
+        'partials/responsive',
+        'partials/typography', 
+        'partials/variables';
 
 * {
     @include global-formatting;
