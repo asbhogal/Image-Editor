@@ -5,6 +5,13 @@
   src: url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.woff2") format("woff2");
   font-display: swap;
 }
+@font-face {
+  font-family: "Lato";
+  font-style: Light;
+  font-weight: 400;
+  src: url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.woff2") format("woff2");
+  font-display: swap;
+}
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +27,13 @@ body {
   background: linear-gradient(140deg, #160040, #4C0070);
 }
 
+@font-face {
+  font-family: "Lato";
+  font-style: Light;
+  font-weight: 400;
+  src: url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.woff2") format("woff2");
+  font-display: swap;
+}
 @media screen and (max-width: 760px) {
   .container {
     padding: 25px;
