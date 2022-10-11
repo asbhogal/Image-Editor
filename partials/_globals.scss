@@ -4,6 +4,9 @@
 * {
     @include global-formatting;
     font-family: $body-font;
+    &:is(&::after, &::before, *) {
+        box-sizing: border-box;
+    }
 }
 
 body {
