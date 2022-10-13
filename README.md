@@ -24,5 +24,5 @@ An image editor which allows the user to import a picture and adjust it using di
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg"><img src="https://github.com/devicons/devicon/raw/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50" style="max-width:100%;"></a>
 
 <strong>:link: Links</strong><br>
- - <a target="_blank" href="https://image-editor-two.vercel.app/">Currency Converter</a>
+ - <a target="_blank" href="https://image-editor-two.vercel.app/">Image Editor</a>
  - Credit goes to CodingNepalWeb for the <a target="_blank" href="https://www.codingnepalweb.com/build-image-editor-html-javascript/"> tutorial and inspiration </a>
