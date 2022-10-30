@@ -1,4 +1,4 @@
-@import 'typography';
+@use 'typography' as *;
 
 $body-font: 'Lato', sans-serif;
 $main-transition: 0.5s all ease;
