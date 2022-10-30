@@ -14,9 +14,9 @@
     width: auto;
     background: transparent;
     border-radius: $border-radius;
-    border: 2px solid $main-color-1;
-    padding: 30px 35px 35px;
-    box-shadow: 0 0px 20px $box-shadow-color;
+    border: .125rem solid $main-color-1;
+    padding: 1.875rem 2.1875rem 2.1875rem;
+    box-shadow: 0 0rem 1.25rem $box-shadow-color;
     button {
         text-transform: uppercase;
     }
@@ -28,12 +28,12 @@
             cursor: pointer;
             color: $font-color;
             background: #f5f5f5;
-            font-size: 14px;
-            padding: 11px 20px;
+            font-size: .875rem;
+            padding: .6875rem 1.25rem;
             border-radius: $border-radius;
         }  
         .row > button {
-            height: 45px;
+            height: 2.8125rem;
         } 
         .choose-img {
             background:#79018C;
@@ -57,7 +57,7 @@
         .save-img {
             background: #4C0070;
             border: none;
-            margin-left: 5px;
+            margin-left: .3125rem;
             @include cross-browser-support-transition-set;
             &:hover {
                 background:#cf2f98;
@@ -67,33 +67,33 @@
     }
     .wrapper {
         display: flex;
-        margin: 20px 0;
-        min-height: 335px;
+        margin: 1.25rem 0;
+        min-height: 20.9375rem;
         .preview-img {
             align-items: center;
             display: flex;
             justify-content: center;
             flex-grow: 1;
-            margin-left: 20px;
+            margin-left: 1.25rem;
             overflow: hidden;
             .placeholder-img {
                 height: 100%;
                 width: 100%;
                 object-fit: contain;
                 border-radius: $border-radius;
-                border: 1px solid #000;
+                border: .0625rem solid #000;
             }
         }
         .editor-panel {
             width: fit-content;
-            padding: 15px 20px;
+            padding: .9375rem 1.25rem;
             border-radius: $border-radius;
-            border: 1px solid #ddd;
+            border: .0625rem solid #ddd;
             .title {
                 display: block;
-                font-size: 16px;
+                font-size: 1rem;
                 font-weight: 800;
-                margin-bottom: 12px;
+                margin-bottom: .75rem;
             }
             .options {
                 display: flex;
@@ -108,12 +108,12 @@
                 }
             }
             button {
-                height: 40px;
-                font-size: 14px;
-                padding: 0 10px;
+                height: 2.5rem;
+                font-size: .875rem;
+                padding: 0 .625rem;
                 color: #6c757d;
-                margin-bottom: 8px;
-                border: 1px solid #aaa;
+                margin-bottom: .5rem;
+                border: .0625rem solid #aaa;
                 border-radius: $border-radius;
                 background: #f5f5f5;
                 @include cross-browser-support-transition-set;
@@ -126,7 +126,7 @@
                 }
             }
             .filter button {
-                width: calc(100% / 2 - 4px);
+                width: calc(100% / 2 - .25rem);
             }
             .active {
                 color: #f5f5f5;
@@ -134,28 +134,28 @@
                 border: 0;
             }
             .rotate {
-                margin-top: 17px;
+                margin-top: 1.0625rem;
             }
             .rotate button {
-                width: calc(100% / 4 - 3px);
+                width: calc(100% / 4 - .1875rem);
                 @include cross-browser-support-transition-set;
                 &:nth-child(3),
                 &:nth-child(4) {
-                    font-size: 18px;
+                    font-size: 1.125rem;
                 }
             }
             .slider {
-                margin-top: 12px;
+                margin-top: .75rem;
                 .filter-info {
                     display: flex;
                     justify-content: space-between;
                     color: #464646;
-                    font-size: 16px;
-                    margin-bottom: 5px;
+                    font-size: 1rem;
+                    margin-bottom: .3125rem;
                 }
                 input {
                     width: 100%;
-                    height: 5px;
+                    height: .3125rem;
                     accent-color: #5372f0;
                     cursor: pointer;
                 }

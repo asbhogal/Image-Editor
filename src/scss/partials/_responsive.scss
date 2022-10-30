@@ -1,19 +1,19 @@
 @media screen and (max-width: 760px) {
     .container {
-        padding: 25px;
+        padding: 1.5625rem;
         .wrapper {
             flex-wrap: wrap-reverse;
         }
     }
     .wrapper {
         .editor-panel {
-            padding-top: 10px;
+            padding-top: .625rem;
             width: auto !important;
         }
         .preview-img {
             width: 100%;
-            margin-left: 0px !important;
-            padding-bottom: 20px;
+            margin-left: 0rem !important;
+            padding-bottom: 1.25rem;
         }
     }
 }
