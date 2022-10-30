@@ -6,7 +6,7 @@
 
 </div>
 
-An image editor which allows the user to import a picture and adjust it using different filters. This has been coded using vanilla HTML5, CSS3 (SCSS) and JavaScript. The editor is fully responsive and is optimised for the web.
+An image editor which allows the user to import a picture and adjust it using different filters, including brightness, inversion, saturation and rotation. This has been coded using vanilla HTML5, CSS3 (SCSS) and JavaScript, is fully responsive and is optimized for the web.
 
 <strong>:heavy_check_mark: Features:</strong><br>
   - Import image (currently 600 x 400 dimensions)
@@ -14,7 +14,7 @@ An image editor which allows the user to import a picture and adjust it using di
   - Flip image along both the x and y-axis
   - Export newly adjusted image
   - Full responsiveness
-  - Optimised for the web
+  - Optimized for the web
 
 <strong>:nerd_face: Stacks Used:</strong><br>
 <br>
