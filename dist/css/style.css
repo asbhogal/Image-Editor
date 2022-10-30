@@ -1,0 +1,310 @@
+/******** LATO - 400 LIGHT ********/
+@font-face {
+  font-family: "Lato";
+  font-style: Light;
+  font-weight: 400;
+  src: url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.woff2") format("woff2");
+  font-display: swap;
+}
+h2, label, p {
+  color: #f5f5f5;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/******** LATO - 400 LIGHT ********/
+@font-face {
+  font-family: "Lato";
+  font-style: Light;
+  font-weight: 400;
+  src: url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.woff2") format("woff2");
+  font-display: swap;
+}
+h2, label, p {
+  color: #f5f5f5;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+*:is(*::after, *::before, *) {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(140deg, #160040, #4C0070);
+}
+
+/******** LATO - 400 LIGHT ********/
+@font-face {
+  font-family: "Lato";
+  font-style: Light;
+  font-weight: 400;
+  src: url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.woff2") format("woff2");
+  font-display: swap;
+}
+h2, label, p {
+  color: #f5f5f5;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    padding: 25px;
+  }
+  .container .wrapper {
+    flex-wrap: wrap-reverse;
+  }
+  .wrapper .editor-panel {
+    padding-top: 10px;
+    width: auto !important;
+  }
+  .wrapper .preview-img {
+    width: 100%;
+    margin-left: 0px !important;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 525px) and (max-width: 759px) {
+  .editor-panel {
+    width: 100% !important;
+  }
+}
+/******** LATO - 400 LIGHT ********/
+@font-face {
+  font-family: "Lato";
+  font-style: Light;
+  font-weight: 400;
+  src: url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.woff2") format("woff2");
+  font-display: swap;
+}
+h2, label, p {
+  color: #f5f5f5;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/******** LATO - 400 LIGHT ********/
+@font-face {
+  font-family: "Lato";
+  font-style: Light;
+  font-weight: 400;
+  src: url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.woff2") format("woff2");
+  font-display: swap;
+}
+h2, label, p {
+  color: #f5f5f5;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.container.disable :is(.editor-panel, .reset-filter, .save-img) {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.container {
+  width: auto;
+  background: transparent;
+  border-radius: 5px;
+  border: 2px solid #160040;
+  padding: 30px 35px 35px;
+  box-shadow: 0 0px 20px #28013b;
+}
+.container button {
+  text-transform: uppercase;
+}
+.container .controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .controls button {
+  cursor: pointer;
+  color: #f5f5f5;
+  background: #f5f5f5;
+  font-size: 14px;
+  padding: 11px 20px;
+  border-radius: 5px;
+}
+.container .controls .row > button {
+  height: 45px;
+}
+.container .controls .choose-img {
+  background: #79018C;
+  border: none;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+}
+.container .controls .choose-img:hover {
+  background: #4C0070;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+}
+.container .controls .reset-filter {
+  background: #6c757d;
+  border: none;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+}
+.container .controls .reset-filter:hover {
+  background: #ddd;
+  color: #111;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+}
+.container .controls .save-img {
+  background: #4C0070;
+  border: none;
+  margin-left: 5px;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+}
+.container .controls .save-img:hover {
+  background: #cf2f98;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+}
+.container .wrapper {
+  display: flex;
+  margin: 20px 0;
+  min-height: 335px;
+}
+.container .wrapper .preview-img {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  margin-left: 20px;
+  overflow: hidden;
+}
+.container .wrapper .preview-img .placeholder-img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+.container .wrapper .editor-panel {
+  width: fit-content;
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+.container .wrapper .editor-panel .title {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+.container .wrapper .editor-panel .options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .wrapper .editor-panel .options #brightness {
+  background-color: #79018C;
+}
+.container .wrapper .editor-panel .options #brightness:hover {
+  background-color: #4C0070;
+  color: #f5f5f5;
+}
+.container .wrapper .editor-panel button {
+  height: 40px;
+  font-size: 14px;
+  padding: 0 10px;
+  color: #6c757d;
+  margin-bottom: 8px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background: #f5f5f5;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+  width: 100%;
+}
+.container .wrapper .editor-panel button:hover {
+  cursor: pointer;
+  background: #ddd;
+  color: #111;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+}
+.container .wrapper .editor-panel .filter button {
+  width: calc(50% - 4px);
+}
+.container .wrapper .editor-panel .active {
+  color: #f5f5f5;
+  background: #5372f0;
+  border: 0;
+}
+.container .wrapper .editor-panel .rotate {
+  margin-top: 17px;
+}
+.container .wrapper .editor-panel .rotate button {
+  width: calc(25% - 3px);
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+}
+.container .wrapper .editor-panel .rotate button:nth-child(3), .container .wrapper .editor-panel .rotate button:nth-child(4) {
+  font-size: 18px;
+}
+.container .wrapper .editor-panel .slider {
+  margin-top: 12px;
+}
+.container .wrapper .editor-panel .slider .filter-info {
+  display: flex;
+  justify-content: space-between;
+  color: #464646;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.container .wrapper .editor-panel .slider input {
+  width: 100%;
+  height: 5px;
+  accent-color: #5372f0;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
