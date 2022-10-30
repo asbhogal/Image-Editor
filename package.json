@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/asbhogal/Image-Editor/issues"
   },
-  "homepage": "https://github.com/asbhogal/Image-Editor"
+  "homepage": "https://github.com/asbhogal/Image-Editor",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
 }

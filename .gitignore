@@ -1,1 +1,15 @@
+## LOCAL CONFIG ##
+
+.vscode
+
+## NOTES ##
+
 omitted-code.txt
+
+## NPM MODULES ##
+
+node_modules
+
+## PARCEL TEMP DIR ##
+
+.cache
