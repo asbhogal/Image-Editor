@@ -1,8 +1,8 @@
-@import 'typography';
+@use 'typography' as *;
 
 $body-font: 'Lato', sans-serif;
 $main-transition: 0.5s all ease;
-$border-radius: 5px;
+$border-radius: .3125rem;
 $main-color-1: #160040;
 $main-color-2: #4C0070;
 $main-color-3: #79018C;
