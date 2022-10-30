@@ -1,7 +1,7 @@
 {
   "name": "image-editor",
   "version": "1.0.0",
-  "description": "<div align=\"center\">",
+  "description": "A live image editor creating using vanilla HTML5, CSS3 (SCSS) & JavaScript",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,10 @@
     "url": "git+https://github.com/asbhogal/Image-Editor.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aman Singh Bhogal",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/asbhogal/Image-Editor/issues"
   },
-  "homepage": "https://github.com/asbhogal/Image-Editor#readme"
+  "homepage": "https://github.com/asbhogal/Image-Editor"
 }
