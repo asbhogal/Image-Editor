@@ -131,8 +131,8 @@ var fileInput = document.querySelector(".file-input"),
 var brightness = 100,
   saturation = 100,
   inversion = 0,
-  grayscale = 0;
-var rotate = 0,
+  grayscale = 0,
+  rotate = 0,
   flipHorizontal = 1,
   flipVertical = 1;
 var applyFilters = function applyFilters() {
@@ -212,8 +212,8 @@ var resetFilter = function resetFilter() {
   applyFilters();
 };
 var saveImage = function saveImage() {
-  var canvas = document.createElement("canvas");
-  var ctx = canvas.getContext("2d");
+  var canvas = document.createElement("canvas"),
+    ctx = canvas.getContext("2d");
   canvas.width = previewImg.naturalWidth;
   canvas.height = previewImg.naturalHeight;
   ctx.filter = "brightness(".concat(brightness, "%)\n                        saturate(").concat(saturation, "%)\n                        invert(").concat(inversion, "%)\n                        grayscale(").concat(grayscale, "%)");
