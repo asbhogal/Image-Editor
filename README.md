@@ -2,7 +2,7 @@
   
 <h1>Live Image Editor</h1>
   
-![](https://api.checklyhq.com/v1/badges/checks/c8aefcbc-45bc-4b99-b04b-7304a33589bd?style=for-the-badge&theme=dark) ![](https://api.checklyhq.com/v1/badges/checks/c8aefcbc-45bc-4b99-b04b-7304a33589bd?style=for-the-badge&theme=dark&responseTime=true) <br><br> ![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/Image-Editor/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/Image-Editor?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/Image-Editor?color=blueviolet&style=for-the-badge&labelColor=000)
+![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/Image-Editor/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/Image-Editor?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/Image-Editor?color=blueviolet&style=for-the-badge&labelColor=000)
 
 </div>
 
